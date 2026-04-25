@@ -113,65 +113,7 @@ NAVBAR
 }
 
 
-/* ============================================
-HERO
-============================================ */
 
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    padding: 80px 80px 60px;
-    background-color: var(--bg-gray);
-}
-
-.hero-text {
-    max-width: 560px;
-    text-align: center;
-}
-
-.hero-text h1 {
-    font-family: 'Nunito', sans-serif;
-    font-size: clamp(1.8rem, 3.5vw, 3rem);
-    line-height: 1.2;
-    margin-bottom: 20px;
-    color: var(--blue-dark);
-}
-
-.hero-text p {
-    font-size: clamp(1rem, 1.5vw, 1.2rem);
-    line-height: 1.6;
-    margin-bottom: 32px;
-    color: #333;
-}
-
-.hero-btn {
-    padding: 12px 28px;
-    border: none;
-    background-color: var(--blue);
-    color: var(--white);
-    border-radius: var(--radius);
-    cursor: pointer;
-    font-size: 1.1rem;
-    font-weight: 600;
-    font-family: inherit;
-    transition:
-            background-color var(--transition),
-            transform var(--transition);
-}
-
-.hero-btn:hover {
-    background-color: #3568d4;
-    transform: translateY(-2px);
-}
-
-.hero-img img {
-    width: 100%;
-    max-width: 750px;
-    border-radius: var(--radius);
-    object-fit: cover;
-}
 
 /* ============================================
 HERO
@@ -232,3 +174,4 @@ HERO
     border-radius: var(--radius);
     object-fit: cover;
 }
+
