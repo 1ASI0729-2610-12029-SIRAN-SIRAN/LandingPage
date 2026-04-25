@@ -175,3 +175,52 @@ HERO
     object-fit: cover;
 }
 
+/* ============================================
+BENEFICIOS
+============================================ */
+
+.benefits {
+    padding: 70px 60px;
+    text-align: center;
+    background-color: var(--white);
+}
+
+.benefits-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: clamp(1.6rem, 3vw, 2.5rem);
+    margin-bottom: 50px;
+    color: var(--blue-dark);
+}
+
+.benefit-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
+    background: var(--card-blue);
+    padding: 50px 40px;
+    width: 280px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    font-size: 1rem;
+    transition: transform var(--transition);
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+}
+
+.benefit-card img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.benefit-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--blue-dark);
+}
